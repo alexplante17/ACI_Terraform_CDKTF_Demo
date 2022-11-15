@@ -1,0 +1,34 @@
+{
+  "//": {
+    "metadata": {
+      "backend": "local",
+      "stackName": "cdktf",
+      "version": "0.13.3"
+    },
+    "outputs": {
+    }
+  },
+  "provider": {
+    "aci": [
+      {
+        "insecure": true,
+        "password": "C1sc012345",
+        "url": "https://10.10.20.14",
+        "username": "admin"
+      }
+    ]
+  },
+  "terraform": {
+    "backend": {
+      "local": {
+        "path": "C:\\Users\\alexp\\Code\\ACI_Terraform\\terraform.cdktf.tfstate"
+      }
+    },
+    "required_providers": {
+      "aci": {
+        "source": "CiscoDevNet/aci",
+        "version": "2.5.2"
+      }
+    }
+  }
+}
