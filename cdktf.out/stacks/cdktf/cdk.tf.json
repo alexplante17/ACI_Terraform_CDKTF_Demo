@@ -12,11 +12,25 @@
     "aci": [
       {
         "insecure": true,
-        "password": "C1sc012345",
+        "password": "C1sco12345",
         "url": "https://10.10.20.14",
         "username": "admin"
       }
     ]
+  },
+  "resource": {
+    "aci_tenant": {
+      "cdktf_terraformcdktftenant_22991333": {
+        "//": {
+          "metadata": {
+            "path": "cdktf/terraform_cdktf_tenant",
+            "uniqueId": "cdktf_terraformcdktftenant_22991333"
+          }
+        },
+        "description": "This tenant was built with CDKTF using Pyhton",
+        "name": "terraform_cdktf_tenant"
+      }
+    }
   },
   "terraform": {
     "backend": {
