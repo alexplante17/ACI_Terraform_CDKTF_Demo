@@ -20,6 +20,8 @@ from imports.aci import application_epg
 class MyStack(TerraformStack):
     def __init__(self, scope: Construct, id: str):
         super().__init__(scope, id)
+
+        # Provider configuration
         
         aci = provider.AciProvider(self, "aci_provider",
             url = "https://10.10.20.14",
