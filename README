@@ -5,4 +5,6 @@ on Cisco ACI using Terraform with HCL, but also using Terraform Cloud Devlopemen
 
 You will find the CDKTF files in the CDKTF project folder, while the Terraform CLI can be found in the parent directory.
 
+Instruction to set up the envrionment for CDKTF are located in Instruction.pdf 
+
 # Alexandre Plante, 2022-11-20
