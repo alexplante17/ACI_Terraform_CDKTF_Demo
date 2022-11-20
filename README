@@ -1,0 +1,8 @@
+## Terraform CDKTF Demo ##
+
+The purpose of this demo is the provision a tenant, VRF, BD, subnet, an application profile and an EPG
+on Cisco ACI using Terraform with HCL, but also using Terraform Cloud Devlopement Kit (CDKTF) with Python.
+
+You will find the CDKTF files in the CDKTF project folder, while the Terraform CLI can be found in the parent directory.
+
+# Alexandre Plante, 2022-11-20
